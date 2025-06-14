@@ -16,7 +16,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 public class GeneralConfig {
 
-	public static double conversionRateHeToRF = 1.0F;
+	public static double conversionRateHeToRF = 4.0F;
 	public static boolean enableDebugMode = false;
 	public static boolean enableSkybox = true;
 	public static boolean enableWelcomeMessage = true;
@@ -185,7 +185,7 @@ public class GeneralConfig {
 
 		enableWelcomeMessage = CommonConfig.createConfigBool(config, CATEGORY_GENERAL, "1.34_enableWelcomeMessage", "Enables the welcome message which appears in the chat when you load into the game", true);
 
-		conversionRateHeToRF = CommonConfig.createConfigDouble(config, CATEGORY_GENERAL, "1.35_conversionRateHeToRF", "One HE is (insert number) RF - <number> (double)", 1.0D);
+		conversionRateHeToRF = CommonConfig.createConfigDouble(config, CATEGORY_GENERAL, "1.35_conversionRateHeToRF", "One HE is (insert number) RF - <number> (double)", 4.0D);
 
 		final String CATEGORY_528 = "528";
 
